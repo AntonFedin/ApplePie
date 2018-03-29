@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FF608E12063D7880003F261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF608E02063D7880003F261 /* AppDelegate.swift */; };
-		3FF608E32063D7880003F261 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF608E22063D7880003F261 /* FirstViewController.swift */; };
-		3FF608E52063D7880003F261 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF608E42063D7880003F261 /* SecondViewController.swift */; };
-		3FF608E82063D7880003F261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF608E62063D7880003F261 /* Main.storyboard */; };
-		3FF608EA2063D7880003F261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF608E92063D7880003F261 /* Assets.xcassets */; };
-		3FF608ED2063D7880003F261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF608EB2063D7880003F261 /* LaunchScreen.storyboard */; };
-		3FF608F52063DB0F0003F261 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF608F42063DB0F0003F261 /* ThirdViewController.swift */; };
+		3FC506FE206D133F00368017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC506FD206D133F00368017 /* AppDelegate.swift */; };
+		3FC50700206D133F00368017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC506FF206D133F00368017 /* ViewController.swift */; };
+		3FC50703206D133F00368017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC50701206D133F00368017 /* Main.storyboard */; };
+		3FC50705206D133F00368017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC50704206D133F00368017 /* Assets.xcassets */; };
+		3FC50708206D133F00368017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC50706206D133F00368017 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FF608DD2063D7880003F261 /* AntonFedin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntonFedin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FF608E02063D7880003F261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FF608E22063D7880003F261 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3FF608E42063D7880003F261 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		3FF608E72063D7880003F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FF608E92063D7880003F261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FF608EC2063D7880003F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FF608EE2063D7880003F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3FF608F42063DB0F0003F261 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		3FC506FA206D133F00368017 /* ApplePaiAnton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePaiAnton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC506FD206D133F00368017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FC506FF206D133F00368017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FC50702206D133F00368017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FC50704206D133F00368017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FC50707206D133F00368017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FC50709206D133F00368017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FF608DA2063D7880003F261 /* Frameworks */ = {
+		3FC506F7206D133F00368017 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FF608D42063D7880003F261 = {
+		3FC506F1206D133F00368017 = {
 			isa = PBXGroup;
 			children = (
-				3FF608DF2063D7880003F261 /* AntonFedin */,
-				3FF608DE2063D7880003F261 /* Products */,
+				3FC506FC206D133F00368017 /* ApplePaiAnton */,
+				3FC506FB206D133F00368017 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FF608DE2063D7880003F261 /* Products */ = {
+		3FC506FB206D133F00368017 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FF608DD2063D7880003F261 /* AntonFedin.app */,
+				3FC506FA206D133F00368017 /* ApplePaiAnton.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FF608DF2063D7880003F261 /* AntonFedin */ = {
+		3FC506FC206D133F00368017 /* ApplePaiAnton */ = {
 			isa = PBXGroup;
 			children = (
-				3FF608E02063D7880003F261 /* AppDelegate.swift */,
-				3FF608E22063D7880003F261 /* FirstViewController.swift */,
-				3FF608E42063D7880003F261 /* SecondViewController.swift */,
-				3FF608E62063D7880003F261 /* Main.storyboard */,
-				3FF608F42063DB0F0003F261 /* ThirdViewController.swift */,
-				3FF608E92063D7880003F261 /* Assets.xcassets */,
-				3FF608EB2063D7880003F261 /* LaunchScreen.storyboard */,
-				3FF608EE2063D7880003F261 /* Info.plist */,
+				3FC506FD206D133F00368017 /* AppDelegate.swift */,
+				3FC506FF206D133F00368017 /* ViewController.swift */,
+				3FC50701206D133F00368017 /* Main.storyboard */,
+				3FC50704206D133F00368017 /* Assets.xcassets */,
+				3FC50706206D133F00368017 /* LaunchScreen.storyboard */,
+				3FC50709206D133F00368017 /* Info.plist */,
 			);
-			path = AntonFedin;
+			path = ApplePaiAnton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FF608DC2063D7880003F261 /* AntonFedin */ = {
+		3FC506F9206D133F00368017 /* ApplePaiAnton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FF608F12063D7880003F261 /* Build configuration list for PBXNativeTarget "AntonFedin" */;
+			buildConfigurationList = 3FC5070C206D133F00368017 /* Build configuration list for PBXNativeTarget "ApplePaiAnton" */;
 			buildPhases = (
-				3FF608D92063D7880003F261 /* Sources */,
-				3FF608DA2063D7880003F261 /* Frameworks */,
-				3FF608DB2063D7880003F261 /* Resources */,
+				3FC506F6206D133F00368017 /* Sources */,
+				3FC506F7206D133F00368017 /* Frameworks */,
+				3FC506F8206D133F00368017 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AntonFedin;
-			productName = AntonFedin;
-			productReference = 3FF608DD2063D7880003F261 /* AntonFedin.app */;
+			name = ApplePaiAnton;
+			productName = ApplePaiAnton;
+			productReference = 3FC506FA206D133F00368017 /* ApplePaiAnton.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FF608D52063D7880003F261 /* Project object */ = {
+		3FC506F2206D133F00368017 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = student;
 				TargetAttributes = {
-					3FF608DC2063D7880003F261 = {
+					3FC506F9206D133F00368017 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 3FF608D82063D7880003F261 /* Build configuration list for PBXProject "AntonFedin" */;
+			buildConfigurationList = 3FC506F5206D133F00368017 /* Build configuration list for PBXProject "ApplePaiAnton" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FF608D42063D7880003F261;
-			productRefGroup = 3FF608DE2063D7880003F261 /* Products */;
+			mainGroup = 3FC506F1206D133F00368017;
+			productRefGroup = 3FC506FB206D133F00368017 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FF608DC2063D7880003F261 /* AntonFedin */,
+				3FC506F9206D133F00368017 /* ApplePaiAnton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FF608DB2063D7880003F261 /* Resources */ = {
+		3FC506F8206D133F00368017 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF608ED2063D7880003F261 /* LaunchScreen.storyboard in Resources */,
-				3FF608EA2063D7880003F261 /* Assets.xcassets in Resources */,
-				3FF608E82063D7880003F261 /* Main.storyboard in Resources */,
+				3FC50708206D133F00368017 /* LaunchScreen.storyboard in Resources */,
+				3FC50705206D133F00368017 /* Assets.xcassets in Resources */,
+				3FC50703206D133F00368017 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FF608D92063D7880003F261 /* Sources */ = {
+		3FC506F6206D133F00368017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF608E52063D7880003F261 /* SecondViewController.swift in Sources */,
-				3FF608E12063D7880003F261 /* AppDelegate.swift in Sources */,
-				3FF608F52063DB0F0003F261 /* ThirdViewController.swift in Sources */,
-				3FF608E32063D7880003F261 /* FirstViewController.swift in Sources */,
+				3FC50700206D133F00368017 /* ViewController.swift in Sources */,
+				3FC506FE206D133F00368017 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FF608E62063D7880003F261 /* Main.storyboard */ = {
+		3FC50701206D133F00368017 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FF608E72063D7880003F261 /* Base */,
+				3FC50702206D133F00368017 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FF608EB2063D7880003F261 /* LaunchScreen.storyboard */ = {
+		3FC50706206D133F00368017 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FF608EC2063D7880003F261 /* Base */,
+				3FC50707206D133F00368017 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FF608EF2063D7880003F261 /* Debug */ = {
+		3FC5070A206D133F00368017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		3FF608F02063D7880003F261 /* Release */ = {
+		3FC5070B206D133F00368017 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,30 +270,30 @@
 			};
 			name = Release;
 		};
-		3FF608F22063D7880003F261 /* Debug */ = {
+		3FC5070D206D133F00368017 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M326LH9Q2Q;
-				INFOPLIST_FILE = AntonFedin/Info.plist;
+				INFOPLIST_FILE = ApplePaiAnton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.learnSwift.AntonFedin;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.learnSwift.ApplePaiAnton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3FF608F32063D7880003F261 /* Release */ = {
+		3FC5070E206D133F00368017 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M326LH9Q2Q;
-				INFOPLIST_FILE = AntonFedin/Info.plist;
+				INFOPLIST_FILE = ApplePaiAnton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.learnSwift.AntonFedin;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.learnSwift.ApplePaiAnton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FF608D82063D7880003F261 /* Build configuration list for PBXProject "AntonFedin" */ = {
+		3FC506F5206D133F00368017 /* Build configuration list for PBXProject "ApplePaiAnton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF608EF2063D7880003F261 /* Debug */,
-				3FF608F02063D7880003F261 /* Release */,
+				3FC5070A206D133F00368017 /* Debug */,
+				3FC5070B206D133F00368017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FF608F12063D7880003F261 /* Build configuration list for PBXNativeTarget "AntonFedin" */ = {
+		3FC5070C206D133F00368017 /* Build configuration list for PBXNativeTarget "ApplePaiAnton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF608F22063D7880003F261 /* Debug */,
-				3FF608F32063D7880003F261 /* Release */,
+				3FC5070D206D133F00368017 /* Debug */,
+				3FC5070E206D133F00368017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FF608D52063D7880003F261 /* Project object */;
+	rootObject = 3FC506F2206D133F00368017 /* Project object */;
 }
