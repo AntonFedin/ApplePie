@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FA4A3C72076571600D98B6C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA4A3C62076571600D98B6C /* Game.swift */; };
 		3FC506FE206D133F00368017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC506FD206D133F00368017 /* AppDelegate.swift */; };
 		3FC50700206D133F00368017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC506FF206D133F00368017 /* ViewController.swift */; };
 		3FC50703206D133F00368017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC50701206D133F00368017 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FA4A3C62076571600D98B6C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		3FC506FA206D133F00368017 /* ApplePaiAnton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplePaiAnton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC506FD206D133F00368017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC506FF206D133F00368017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		3FC506F1206D133F00368017 = {
 			isa = PBXGroup;
 			children = (
+				3FA4A3C62076571600D98B6C /* Game.swift */,
 				3FC506FC206D133F00368017 /* ApplePaiAnton */,
 				3FC506FB206D133F00368017 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC50700206D133F00368017 /* ViewController.swift in Sources */,
+				3FA4A3C72076571600D98B6C /* Game.swift in Sources */,
 				3FC506FE206D133F00368017 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
